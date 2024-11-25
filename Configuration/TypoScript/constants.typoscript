@@ -2,12 +2,22 @@
 
 plugin.tx_powermail {
 	settings {
+		main.pid = 0
+		main.confirmation = 0
+		main.optin = 0
+		main.moresteps = 0
+		misc.htmlForLabels = 1
 		spamshield.enable = 0
 		validation.client = 0
 		db.enable = 0
 
-		javascript {
-			addAdditionalJavaScript = 0
-		}
+		// Im Reiter 'Mail to User' muss nur der Betreff ausgefuellt werden
+		sender.default.senderName = Ps14 Hello
+		sender.default.senderEmail = hello@ps14.de
+
+		// Im Reiter 'Mail to Receiver' muessen weiterhin alle Felder ausgefuellt werden -> nur die E-Mail Header werden
+		// korrekt befuellt
+		receiver.overwrite.senderName = Ps14 Hello
+		receiver.overwrite.senderEmail = hello@ps14.de
 	}
 }
