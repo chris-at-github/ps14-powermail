@@ -1,0 +1,14 @@
+TCEFORM {
+	tx_powermail_domain_model_field {
+		tx_powermail_column_width {
+			addItems {
+				25 = LLL:EXT:ps14_powermail/Resources/Private/Language/locallang_tca.xlf:field.column-width.25
+				33 = LLL:EXT:ps14_powermail/Resources/Private/Language/locallang_tca.xlf:field.column-width.33
+				50 = LLL:EXT:ps14_powermail/Resources/Private/Language/locallang_tca.xlf:field.column-width.50
+				66 = LLL:EXT:ps14_powermail/Resources/Private/Language/locallang_tca.xlf:field.column-width.66
+				75 = LLL:EXT:ps14_powermail/Resources/Private/Language/locallang_tca.xlf:field.column-width.75
+				100 = LLL:EXT:ps14_powermail/Resources/Private/Language/locallang_tca.xlf:field.column-width.100
+			}
+		}
+	}
+}

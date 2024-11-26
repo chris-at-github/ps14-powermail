@@ -3,15 +3,26 @@
 	<file source-language="en" datatype="plaintext" original="messages" date="2024-03-25T23:00:00Z" product-name="ps14_powermail" target-language="de">
 		<header/>
 		<body>
-			<trans-unit id="title">
-				<target>Ps14 Powermail</target>
+			<trans-unit id="field.column-width">
+				<target>Column Width</target>
 			</trans-unit>
-			<trans-unit id="description">
-				<target>TYPO3 Extension serves as a template for TYPO3 modules</target>
+			<trans-unit id="field.column-width.25">
+				<target>25%</target>
 			</trans-unit>
-
-			<trans-unit id="elements.record-type.default">
-				<target>Default</target>
+			<trans-unit id="field.column-width.33">
+				<target>33%</target>
+			</trans-unit>
+			<trans-unit id="field.column-width.50">
+				<target>50%</target>
+			</trans-unit>
+			<trans-unit id="field.column-width.66">
+				<target>66%</target>
+			</trans-unit>
+			<trans-unit id="field.column-width.75">
+				<target>75%</target>
+			</trans-unit>
+			<trans-unit id="field.column-width.100">
+				<target>100%</target>
 			</trans-unit>
 		</body>
 	</file>
