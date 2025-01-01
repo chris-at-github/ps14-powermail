@@ -3,3 +3,14 @@ services:
     autowire: true
     autoconfigure: true
     public: false
+
+
+  Ps14\Powermail\:
+    resource: '../Classes/*'
+
+  Ps14\Powermail\Domain\Repository\FormRepository:
+    autowire: true
+    autoconfigure: true
+    public: true
+    tags: ['controller.service_arguments']
+    decorates: In2code\Powermail\Domain\Repository\FormRepository
