@@ -6,6 +6,9 @@
 			<trans-unit id="field.mandatory">
 				<target>erforderlich</target>
 			</trans-unit>
+			<trans-unit id="field.date.placeholder">
+				<target>tt.mm.jjjj</target>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>
