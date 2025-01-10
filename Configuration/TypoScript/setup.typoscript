@@ -46,3 +46,9 @@ plugin.tx_powermail {
 		}
 	}
 }
+
+page {
+	includeJSFooter {
+		powermailForm >
+	}
+}
